@@ -1,0 +1,42 @@
+<mvc:View
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.m"
+  xmlns:sap.ui.core="sap.ui.core"
+  xmlns:sap.ui.layout.form="sap.ui.layout.form"
+  controllerName="com.acn.training.javascriptact.controller.View">
+
+  <Page id="pageId" title="JS Activity App">
+    <content>
+      <VBox id="vboxMain" class="sapUiSmallMargin">
+        <Toolbar id="toolbarTop">
+          <Title id="titleMain" text="JavaScript Activity Tasks" level="H2"/>
+          <ToolbarSpacer id="spacer1"/>
+        </Toolbar>
+
+        <Input id="inputNumber" placeholder="Enter a number (1-999)"/>
+        <Button id="btnConvertWords" text="1. Convert to Words" press="onConvertToWords"/>
+        <TextArea id="resultWords" rows="2" editable="false"/>
+
+        <Input id="inputHeight1" placeholder="Enter height for inverted triangle"/>
+        <Button id="btnInvertedTriangle" text="2. Inverted Triangle Pattern" press="onPrintInvertedTriangle"/>
+        <TextArea id="resultInvertedTriangle" rows="5" editable="false"/>
+
+        <Input id="inputHeight2" placeholder="Enter height for X pattern"/>
+        <Button id="btnXPattern" text="3. X Pattern" press="onPrintXPattern"/>
+        <TextArea id="resultXPattern" rows="5" editable="false"/>
+
+        <Input id="inputSide1" placeholder="Enter side 1 of triangle"/>
+        <Input id="inputSide2" placeholder="Enter side 2 of triangle"/>
+        <Input id="inputSide3" placeholder="Enter side 3 of triangle"/>
+        <Button id="btnPerimeter" text="4. Compute Perimeter" press="onCalculatePerimeter"/>
+        <Text id="textPerimeterResult" text="Result will appear here"/>
+
+        <Button id="btnColorChoices" text="5. Show Color Choices" press="onShowColorChoices"/>
+        <TextArea id="textColorChoicesResult" rows="5" editable="false"/>
+
+        <Button id="btnHighestSkills" text="6. Person with Highest Skills" press="onShowHighestSkills"/>
+        <Text id="textHighestSkillResult" text="Result will appear here"/>
+      </VBox>
+    </content>
+  </Page>
+</mvc:View>

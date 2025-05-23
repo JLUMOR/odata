@@ -1,0 +1,29 @@
+{
+    "Products": [
+      {
+        "ProductID": 1,
+        "ProductName": "Fan",
+        "SupplierID": 101,
+        "CategoryID": 5,
+        "QuantityPerUnit": "1 unit",
+        "UnitPrice": 120.5,
+        "UnitsInStock": 50,
+        "UnitsOnOrder": 20,
+        "ReorderLevel": 10,
+        "Discontinued": false
+      },
+      {
+        "ProductID": 2,
+        "ProductName": "Lamp",
+        "SupplierID": 102,
+        "CategoryID": 3,
+        "QuantityPerUnit": "1 unit",
+        "UnitPrice": 75.0,
+        "UnitsInStock": 40,
+        "UnitsOnOrder": 15,
+        "ReorderLevel": 5,
+        "Discontinued": false
+      }
+    ]
+  }
+  

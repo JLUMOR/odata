@@ -75,7 +75,7 @@
                 <sap.ui.layout.form:SimpleForm editable="true" layout="ResponsiveGridLayout" id="form4">
                     <sap.ui.layout.form:content>
                         <Label text="Product Id" id="label4"/>
-                        <Input width="50%" value="{/ProductID}" id="input4"/>
+                        <Input width="50%" value="{/ProductId}" id="input4"/>
                         <Label text="Product Name" id="label5"/>
                         <Input width="50%" value="{/ProductName}" id="input5"/>
                         <Label text="Supplier Id" id="label6"/>

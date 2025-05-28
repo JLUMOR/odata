@@ -1,0 +1,34 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="sapips.training.odata1.controller.Main">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <Table noDataText="{i18n>noData}" id="table0" headerText="Products">
+                <items>
+                    <ColumnListItem type="Active" id="item0">
+                        <cells>
+                            <ObjectIdentifier id="productName" title="{ProductName}" text="Product ID: {ProductID}" />
+                            <Text text="{SupplierID}" id="text3"/>
+                            <ObjectIdentifier id="price" title="{UnitPrice}" text="{QuantityPerUnit}" />
+                        </cells>
+                    </ColumnListItem>
+                </items>
+                <columns>
+                    <Column id="column0">
+                        <header>
+                            <Label text="{i18n>product}" id="label0"/>
+                        </header>
+                    </Column>
+                    <Column id="column1">
+                        <header>
+                            <Label text="{i18n>supplierId}" id="label1"/>
+                        </header>
+                    </Column>
+                    <Column id="column2">
+                        <header>
+                            <Label text="{i18n>price}" id="label2"/>
+                        </header>
+                    </Column>
+                </columns>
+            </Table>
+        </content>
+    </Page>
+</mvc:View>
